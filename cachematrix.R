@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get, setinvfun = setinvfun, getinvfun = getinvfun)
               }
 
-## computes inverse of the special matrix returned above
+## computes inverse of the special matrix returned above similar to "Cache mean example"
 
 cacheSolve <- function(x, ...) {
   inv <- x$getinvfun()
